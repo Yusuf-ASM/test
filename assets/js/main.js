@@ -153,15 +153,15 @@
 				// 	.appendTo($body);
 
 			// Scrollex.
-				$this.scrollex({
-					mode: 'middle',
-					delay: 200,
-					top: '-10vh',
-					bottom: '-10vh',
-					init: function() { $bg.removeClass('active'); },
-					enter: function() { $bg.addClass('active'); },
-					leave: function() { $bg.removeClass('active'); }
-				});
+				// $this.scrollex({
+				// 	mode: 'middle',
+				// 	delay: 200,
+				// 	top: '-10vh',
+				// 	bottom: '-10vh',
+				// 	init: function() { $bg.removeClass('active'); },
+				// 	enter: function() { $bg.addClass('active'); },
+				// 	// leave: function() { $bg.removeClass('active'); }
+				// });
 
 		});
 
